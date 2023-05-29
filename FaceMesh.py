@@ -8,7 +8,6 @@ pTime = 0
 mpDraw = mp.solutions.drawing_utils
 mpFaceMesh = mp.solutions.face_mesh
 FaceMesh = mpFaceMesh.FaceMesh(max_num_faces=2)
-cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)
 drawSpec = mpDraw.DrawingSpec(thickness=1, circle_radius=2)
 
 while True:
